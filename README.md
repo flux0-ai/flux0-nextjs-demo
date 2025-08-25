@@ -44,7 +44,7 @@ npm run dev
 ## How It Works
 
 - /
-  On Enter: `POST /api/sessions` → navigate to /session/{id} → (optionally) send the first message.
+  On Enter: `POST /api/sessions` → navigate to `/session/{id}` → (optionally) send the first message.
 
 - /session/[id]
   A Client Component starts streaming with `@flux0-ai/react` and renders each chunk as it arrives.
